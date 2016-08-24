@@ -35,7 +35,6 @@ body a:hover{
 .name_title {
     position:absolute;
     top: 30vh;
-    left: 15px;
 }
 .name_title h1 {
     font-family: 'Open Sans', sans-serif;
@@ -397,6 +396,7 @@ p {
 .education-ul {
     padding-left: 2em;
     color: #999;
+    font-size: 1em;
 }
 /*--//education--*/
 /*--skills--*/
@@ -458,6 +458,7 @@ p {
     margin-top: 1em;
     padding-left: 2em;
     color: #999;
+    font-size: 1em;
 }
 /*--//volunteer--*/
 /*--portfolio--*/
@@ -1082,6 +1083,9 @@ ul.nav.navbar li a {
     padding: 0.8em 1.5em;
     font-size: 1.1em;
 }
+.name-title-content {
+    padding-left: 0;
+}
 }
 @media(max-width:640px){
 /*.header-right h2 {
@@ -1193,7 +1197,7 @@ h3.title {
 h3.title {
     font-size: 2.5em;
 }
-p {
+/*p {
     font-size: 0.9em;
 }
 .about-right ul li {
@@ -1202,23 +1206,29 @@ p {
 .work-right ul li {
     font-size: 0.9em;
 }
+.volunteer-ul {
+    font-size: 0.9em;
+}
+.education-ul {
+    font-size: 0.9em;
+}*/
 .about-right h5 {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 .work-date h4 {
-    font-size: 1.0em;
-}
-.position-header h5 {
     font-size: 1.1em;
 }
+.position-header h5 {
+    font-size: 1.2em;
+}
 .position-header h6 {
-    font-size: 1.0em;
+    font-size: 1.1em;
 }
 .skills-section-header {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 .bar-grids h6 {
-    font-size: .9em;
+    font-size: 1em;
 }
 /*.work-info h4 {
     font-size: 1em;
