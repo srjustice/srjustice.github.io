@@ -52,11 +52,16 @@ body a:hover{
     text-shadow: 3px 3px black;
 }
 .banner {
-	background:url(../images/seniorPic.jpg)fixed no-repeat center 0px;
+	background:url(../images/seniorPic.jpg) fixed no-repeat center 0px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 	-webkit-background-size:cover;
-	background-size:cover;
-	-moz-background-size:cover;
-	position: relative;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+	background-size: cover;
+	/*position: relative;*/
     height:100vh;
     opacity: .95;
 }
@@ -1105,6 +1110,12 @@ ul.address {
 h3.title {
     font-size: 2.8em;
     margin-bottom: 0.5em;
+}
+.banner {
+    background-position: 60% 0px;
+}
+.name_title {
+    top: 50vh;
 }
 .about-left {
     float: none;
